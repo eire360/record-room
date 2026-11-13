@@ -1,0 +1,55 @@
+# Local settings, credentials and signing files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.keystore
+*.jks
+.DS_Store
+xcuserdata/
+*.xcuserstate
+# Build results and local dependencies
+.build/
+.swiftpm/
+DerivedData/
+build/
+Build/
+node_modules/
+.gradle/
+*.app/
+*.dSYM/
+*.xcresult/
+*.log
+# Unity local state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+UserSettings/
+
+# Generated local files must never be published
+work/
+work.noindex/
+Build.noindex/
+*.xcarchive/
+*.ipa
+*.dmg
+*.jar
+*.class
+*.args
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+# Music bridge snapshots, current-track data and command/session files
+/pocketplayer/live/
+/pocketplayer/commands/
+/pocketplayer/state.json
+/pocketplayer/client.json
+/pocketplayer/lcd.png
